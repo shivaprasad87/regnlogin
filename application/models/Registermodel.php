@@ -7,6 +7,12 @@ class Registermodel extends CI_Model
 		$this->db->insert('user',$data);
 		return true;
 	}
+
+	public function login($data)
+	{
+		$this->db->insert('user',$data);
+		return true;
+	}
 }
 
 
